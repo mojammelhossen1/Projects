@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgb(49, 49, 49);
+    font-size: 30px;
+    text-align: center;
+    line-height: 50vh;
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.one {}
+
+.two {}
+
+.three {}
+
+.four {}
+
+.five {}
+
+.six {}
+
+.seven {}
+
+.eight {}
+
+.nine {}
+
+.ten {}
