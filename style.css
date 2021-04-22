@@ -1,36 +1,31 @@
 * {
-    margin: 0;
-    padding: 0;
+    /* margin: 0;
+    padding: 0; */
     box-sizing: border-box;
-    color: rgb(49, 49, 49);
-    font-size: 30px;
-    text-align: center;
-    line-height: 50vh;
+
 }
 
 .container {
-    height: 100vh;
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(225px, 1fr));
+    grid-gap: 9px;
+    grid-auto-flow: dense;
+    border-radius: 20px;
 }
 
-.one {}
+.container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.container div {
+    border-radius: 15px;
+    overflow: hidden;
+}
+.horizontal {
+    grid-column: auto / span 2;
+}
 
-.two {}
-
-.three {}
-
-.four {}
-
-.five {}
-
-.six {}
-
-.seven {}
-
-.eight {}
-
-.nine {}
-
-.ten {}
+.vertical {
+    grid-row: auto / span 2;
+}
